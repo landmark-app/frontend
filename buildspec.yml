@@ -1,9 +1,6 @@
 version: 0.2
 
 phases:
-  install:
-    commands:
-      - sudo yum install nodejs npm --enablerepo=epel
   pre_build:
     commands:
       - npm install
